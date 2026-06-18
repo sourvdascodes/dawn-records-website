@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dawn Records Guitar Classes | Raniganj, West Bengal</title>
+<meta name="description" content="Professional guitar classes in Raniganj, West Bengal. Learn acoustic guitar, chords, strumming, fingerstyle and songs with Sourav Das. Book your free demo class today." />
+<meta name="keywords" content="Guitar Classes Raniganj, Guitar Teacher West Bengal, Acoustic Guitar Lessons, Sourav Das Music, Dawn Records" />
+<meta name="author" content="Dawn Records Guitar Classes" />
+<meta property="og:title" content="Dawn Records Guitar Classes" />
+<meta property="og:description" content="Book professional guitar classes in Raniganj, West Bengal." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="instructor.webp" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f4ecd8;
+  --card: rgba(255,255,255,0.75);
+  --text: #2f241b;
+  --accent: #8b5e34;
+  --accent-dark: #6f4826;
+  --shadow: 0 20px 50px rgba(0,0,0,0.12);
+  --radius: 24px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(rgba(247,240,223,0.92), rgba(239,226,196,0.94)), url('dawn-records-logo.png') center top / cover fixed no-repeat;
+  color: var(--text);
+}
+header {
+  position: sticky; top: 0; z-index: 1000;
+  backdrop-filter: blur(12px);
+  background: rgba(247,240,223,0.85);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+nav {
+  max-width: 1200px; margin: auto; padding: 14px 24px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.brand {
+  font-family: 'Cinzel', serif; font-size: 1.5rem; font-weight: 700;
+}
+nav a {
+  text-decoration: none; color: var(--text); margin-left: 18px; font-weight: 500;
+}
+.container { max-width: 1200px; margin: auto; padding: 32px 24px; }
+.hero {
+  display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center;
+  min-height: 88vh;
+}
+.glass {
+  background: var(--card);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.hero-card { padding: 48px; }
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(2.6rem, 6vw, 5rem);
+  line-height: 1.1;
+  margin: 0 0 16px;
+}
+.subtitle {
+  font-size: 1.15rem; line-height: 1.8; color: #5b4a3a;
+}
+.btns { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
+.btn {
+  display: inline-block; padding: 14px 24px; border-radius: 999px;
+  text-decoration: none; font-weight: 700; transition: 0.3s;
+}
+.primary { background: var(--accent); color: white; }
+.primary:hover { background: var(--accent-dark); transform: translateY(-2px); }
+.secondary {
+  border: 2px solid var(--accent); color: var(--accent);
+}
+.secondary:hover { background: rgba(139,94,52,0.08); }
+.hero img {
+  width: 100%; border-radius: 32px; box-shadow: var(--shadow); object-fit: cover;
+}
+section { margin: 40px 0; }
+.section-title {
+  font-family: 'Cinzel', serif; font-size: 2.2rem; margin-bottom: 20px;
+}
+.grid-3 {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+}
+.card { padding: 28px; }
+ul { padding-left: 20px; line-height: 1.9; }
+iframe {
+  width: 100%; aspect-ratio: 16/9; border: none; border-radius: 20px;
+}
+.testimonial {
+  font-style: italic; color: #5b4a3a; line-height: 1.8;
+}
+.stars { color: #c28a2e; font-size: 1.2rem; }
+footer {
+  margin-top: 60px; padding: 40px 24px; text-align: center;
+  background: rgba(0,0,0,0.04);
+}
+.floating {
+  position: fixed; right: 18px; bottom: 18px;
+  display: flex; flex-direction: column; gap: 10px; z-index: 999;
+}
+.float-btn {
+  background: var(--accent); color: #fff; text-decoration: none;
+  padding: 12px 16px; border-radius: 999px; box-shadow: var(--shadow);
+  font-weight: 700;
+}
+
+.liquid-wrap {
+  width: min(360px, 100%);
+  margin: 0 auto 24px;
+  padding: 10px;
+  background: linear-gradient(135deg, rgba(139,94,52,0.18), rgba(255,255,255,0.7));
+  border-radius: 57% 43% 62% 38% / 42% 58% 42% 58%;
+  animation: morph 8s ease-in-out infinite;
+  box-shadow: var(--shadow);
+}
+.liquid-wrap img {
+  width: 100%;
+  display: block;
+  border-radius: 57% 43% 62% 38% / 42% 58% 42% 58%;
+}
+@keyframes morph {
+  0%, 100% { border-radius: 57% 43% 62% 38% / 42% 58% 42% 58%; }
+  50% { border-radius: 38% 62% 44% 56% / 61% 39% 63% 37%; }
+}
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; }
+  .grid-3 { grid-template-columns: 1fr; }
+  .hero-card { padding: 32px; }
+  nav .links { display:none; }
+}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="brand">Dawn Records</div>
+    <div class="links">
+      <a href="#courses">Courses</a>
+      <a href="#media">Media</a>
+      <a href="#instructor">Instructor</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <section class="hero">
+    <div class="glass hero-card">
+      <h1>Master the Guitar with Confidence</h1>
+      <p class="subtitle">
+        Personalized guitar lessons in Raniganj, West Bengal. Learn chords, strumming,
+        fingerstyle, music theory, and your favorite songs from beginner to advanced levels.
+      </p>
+      <div class="btns">
+        <a class="btn primary" href="https://wa.me/918250960928?text=Hello%20I%20want%20to%20book%20a%20guitar%20class">Book Free Demo</a>
+        <a class="btn secondary" href="tel:+918250960928">Call Now</a>
+      </div>
+    </div>
+    <img src="dawn-records-logo.png" alt="Sourav Das - Guitar Instructor">
+  </section>
+
+  <section id="courses">
+    <h2 class="section-title">Courses Offered</h2>
+    <div class="grid-3">
+      <div class="glass card">
+        <h3>Beginner Guitar</h3>
+        <ul>
+          <li>Basic chords</li>
+          <li>Strumming patterns</li>
+          <li>Song playing</li>
+        </ul>
+      </div>
+      <div class="glass card">
+        <h3>Intermediate Skills</h3>
+        <ul>
+          <li>Barre chords</li>
+          <li>Fingerpicking</li>
+          <li>Rhythm training</li>
+        </ul>
+      </div>
+      <div class="glass card">
+        <h3>Advanced Musicianship</h3>
+        <ul>
+          <li>Improvisation</li>
+          <li>Music theory</li>
+          <li>Performance coaching</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="media">
+    <h2 class="section-title">Watch a Performance</h2>
+    <div class="glass card">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qbESxw1EgIc?si=mIC3qtGKz4dU2Pvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h2 class="section title"> Listen to Spotify</h2>
+        <div class="glass card">
+          <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1spCe6lXS7iaRrcpHj8Tni?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </div>
+  </section>
+
+  
+<section id="instructor">
+    <h2 class="section-title">Meet Your Instructor</h2>
+    <div class="glass card">
+      <div class="liquid-wrap">
+        <img src="instructor.webp" alt="Sourav Das - Guitar Instructor">
+      </div>
+      <p class="subtitle">
+        Hi, I'm <strong>Sourav Das</strong>, guitarist, instructor, and founder of Dawn Records.
+        My teaching approach focuses on practical playing, musical expression, and building
+        long-term confidence with the instrument.
+      </p>
+      <p>
+        Follow me on Instagram:
+        <a href="https://instagram.com/souravdasmusic" target="_blank">@souravdasmusic</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2 class="section-title">Student Testimonials</h2>
+    <div class="grid-3">
+      <div class="glass card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial">“Within two months I was playing complete songs confidently.”</p>
+      </div>
+      <div class="glass card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial">“Clear explanations and a very motivating teaching style.”</p>
+      </div>
+      <div class="glass card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial">“Perfect for beginners and anyone serious about learning guitar.”</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact & Location</h2>
+    <div class="glass card">
+      <p><strong>Address:</strong> Raniganj, West Bengal, India</p>
+      <p><strong>Phone:</strong> <a href="tel:+918250960928">8250960928</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/918250960928">Chat on WhatsApp</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/souravdasmusic">@souravdasmusic</a></p>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p> &copy; 2026 Dawn Records Guitar Classes. All Rights Reserved.</p>
+  <p>SEO Optimized for local searches in Raniganj and West Bengal.</p>
+</footer>
+
+<div class="floating">
+  <a class="float-btn" href="tel:+918250960928">📞 Call</a>
+  <a class="float-btn" href="https://wa.me/918250960928">💬 WhatsApp</a>
+</div>
+</body>
+</html>
